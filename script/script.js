@@ -59,7 +59,7 @@ for (let i = 0; i < 100; i++) {
     starGenerator()
 }
 
-const  meteorGenre = () => {
+const  meteorGenerator = () => {
     let startMeteorX = setMeteorPosition()
     let startMeteorY = setMeteorPosition()
     let stopMeteorX = setMeteorPosition()
@@ -82,5 +82,5 @@ const  meteorGenre = () => {
 }
 
 
-setInterval(meteorGenre,5000)
-button.addEventListener('click', meteorGenre)
+setInterval(meteorGenerator,5000)
+button.addEventListener('click', meteorGenerator)
